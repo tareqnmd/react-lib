@@ -8,12 +8,18 @@ export default {
 
 export const PrimaryButton = {
 	args: {
-		type: 'primary'
+		type: 'primary',
 	},
+	parameters: {
+		layout: 'centered'
+	}
 };
 
 export const SecondaryButton = {
 	args: {
 		type: 'secondary'
 	},
+	parameters: {
+		layout: 'centered'
+	}
 };
