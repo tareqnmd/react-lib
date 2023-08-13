@@ -3,10 +3,12 @@ button {
 	padding: 10px 40px;
 	border-radius: 2px;
 }
+
 .primary-button {
 	background: blue;
 	color: white;
 }
+
 .secondary-button {
 	background: rgb(49, 136, 66);
 	color: white;
