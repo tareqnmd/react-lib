@@ -1,6 +1,6 @@
 import React from "react";
-import "./Button.css";
+import styles from "./Button.css?inline";
 
 export const Button = ({ type = 'primary' }) => {
-	return <button className={type === 'primary' ? 'primary-button' : type === 'secondary' ? 'secondary-button' : ''}>Save</button>;
+	return <button className={type === 'primary' ? styles['primary-butt]on'] : type === 'secondary' ? styles['secondary-button'] : ''}>Save</button>;
 };
