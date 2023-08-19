@@ -1,5 +1,5 @@
 {
-	"name": "tareqnmd-react-cl",
+	"name": "@tareqnmd/rcl",
 	"version": "1.2.6",
 	"description": "Tareqnmd React Component Library",
 	"main": "dist/index.umd.js",
@@ -11,7 +11,10 @@
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"storybook": "storybook dev -p 6006",
 		"build-storybook": "storybook build",
-		"build": "vite build"
+		"build": "vite build",
+		"patch-publish": "vite build && npm version patch && npm publish --access public",
+		"minor-publish": "vite build && npm version minor && npm publish --access public",
+		"major-publish": "vite build && npm version major && npm publish --access public"
 	},
 	"author": "",
 	"license": "MIT",
