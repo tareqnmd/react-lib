@@ -1,6 +1,6 @@
 {
 	"name": "tareqnmd-react-cl",
-	"version": "1.2.4",
+	"version": "1.2.5",
 	"description": "Tareqnmd React Component Library",
 	"main": "dist/index.umd.js",
 	"module": "dist/index.mjs",
