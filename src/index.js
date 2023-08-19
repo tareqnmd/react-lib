@@ -1,2 +1,3 @@
-export * from './components/UI/Button';
-export * from './components/UI/Form';
+export const HelloThere = () => {
+	console.log('Hello There!');
+};

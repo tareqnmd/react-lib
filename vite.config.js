@@ -1,14 +1,17 @@
 //vite.config.js
-import { resolve } from 'path';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
 	build: {
+		outDir: 'dist',
 		lib: {
-			entry: resolve(__dirname, 'src/index.js'),
-			name: 'tareqnmd-react-cl',
-			fileName: 'index',
+			entry: {
+				index: './src/index.js',
+				button: './src/button.js',
+				input: './src/input.js',
+			},
 		},
+		formats: ['es', 'cjs'],
 		rollupOptions: {
 			external: ['react'],
 		},
