@@ -1,1 +1,2 @@
-export * from './components/UI';
+export * from './components/UI/Button';
+export * from './components/UI/Form';
