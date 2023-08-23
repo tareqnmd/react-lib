@@ -8,7 +8,6 @@
 		"dist"
 	],
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
 		"storybook": "storybook dev -p 6006",
 		"build-storybook": "storybook build",
 		"build": "vite build",
@@ -16,7 +15,7 @@
 		"minor-publish": "vite build && npm version minor && npm publish --access public",
 		"major-publish": "vite build && npm version major && npm publish --access public"
 	},
-	"author": "",
+	"author": "Mohammad Tareq",
 	"license": "MIT",
 	"devDependencies": {
 		"@storybook/addon-essentials": "^7.2.3",
@@ -40,6 +39,9 @@
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/tareqnmd/tareqnmd-rcl.git"
+	},
+	"bugs": {
+		"url": "https://github.com/tareqnmd/tareqnmd-rcl/issues"
 	},
 	"homepage": "https://github.com/tareqnmd/tareqnmd-rcl.git#readme"
 }
