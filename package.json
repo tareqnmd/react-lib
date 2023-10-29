@@ -1,5 +1,5 @@
 {
-	"name": "@tareqnmd/rcl",
+	"name": "@tareqnmd/reactlib",
 	"version": "1.3.1",
 	"description": "Tareqnmd React Component Library",
 	"main": "dist/index.umd.js",
@@ -38,10 +38,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/tareqnmd/tareqnmd-rcl.git"
+		"url": "https://github.com/tareqnmd/reactlib.git"
 	},
 	"bugs": {
-		"url": "https://github.com/tareqnmd/tareqnmd-rcl/issues"
+		"url": "https://github.com/tareqnmd/reactlib/issues"
 	},
-	"homepage": "https://github.com/tareqnmd/tareqnmd-rcl.git#readme"
+	"homepage": "https://github.com/tareqnmd/treactlib.git#readme"
 }
