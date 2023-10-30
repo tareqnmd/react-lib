@@ -8,11 +8,9 @@ export default defineConfig({
 	build: {
 		outDir: 'dist',
 		lib: {
-			name: 'Anthill Component Library',
+			name: 'React Component Library',
 			entry: {
 				index: './src/index.js',
-				button: './src/button.js',
-				icon: './src/icon.js',
 			},
 			formats: ['es'],
 		},
